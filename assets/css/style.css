@@ -7,6 +7,13 @@ body {
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/spring.png");
 }
 
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .navbar {
     background-color: #ffffff;
     border-bottom-color: #777777;
