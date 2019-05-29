@@ -84,6 +84,21 @@ a.fixed-bottom {
     height: 50px;
 }
 
+.card,
+.btn,
+.form-control {
+    border-radius: 0;
+}
+
+.btn.btn-primary.btn-lg {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.btn-primary {
+    border-color: #4aaaa5;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
