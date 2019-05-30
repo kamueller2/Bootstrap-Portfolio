@@ -37,8 +37,15 @@ a.navbar-brand {
     line-height: 90px;
 }
 
+.container {
+    justify-content: space-between;
+}
+
 a.nav-link {
     color: #999;
+    float: right;
+    /* position: relative;
+    right: 140px; */
 }
 
 h1,
@@ -63,7 +70,7 @@ h1 {
 
 .main-section {
     float: left;
-    width: 100%;
+    width: 90%;
     max-width: 960px;
     position: absolute;
     padding: 30px;
